@@ -212,10 +212,10 @@ console.log(joe.scopeArrow());
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-// undefined
+// "this" is an object that was created by the Student constructor function.
 
 // 2. What is "this" when joe.scopeArrow() is invoked?
-// undefined
+// "this" is an object at a window level.
 
 // 3. Explain why "this" is different when an arrow function is used.
 // when arrow functions are used they bubble to the next nearest scope and do not bind 'this' which then looks at the global level and will return undefined.
